@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="田舎兄弟 — 人とかぶらない、ゆるくて個性的なTシャツ。" />
+    <title>田舎兄弟 | ゆるくて変なTシャツ</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@400;500;700;900&family=Zen+Old+Mincho:wght@700;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      .tshirt, .product-tshirt { clip-path:none; background:transparent; filter:none; }
+      .tee-print { position:absolute; inset:0; width:100%; height:100%; object-fit:contain; }
+      .product-print { inset:0; width:100%; height:100%; }
+      .secondary-button { margin-top:12px; background:transparent; border:1px solid #f6f0df; color:#f6f0df; }
+      .three-points { grid-template-columns:repeat(2, 1fr); max-width:720px; }
+      @media (max-width:700px) { .three-points { grid-template-columns:1fr; } }
+    </style>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="logo" href="#top"><span>田舎</span>兄弟</a>
+      <a class="header-link" href="#item">商品を見る <span>↓</span></a>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="sun" aria-hidden="true"></div>
+        <div class="cloud cloud-a" aria-hidden="true"></div>
+        <div class="cloud cloud-b" aria-hidden="true"></div>
+        <div class="hero-copy">
+          <p class="eyebrow">ORIGINAL T-SHIRT</p>
+          <h1>ゆるくて、<br />ちょっと<span>変。</span></h1>
+          <p class="hero-text">人とかぶらない一枚を、<br />のんびり、まじめにつくっています。</p>
+          <a class="button button-dark" href="#item">Tシャツを見る <span>→</span></a>
+        </div>
+        <div class="hero-tee" aria-label="Maniac Tシャツのイラスト">
+          <div class="hanger"></div>
+          <div class="tshirt">
+            <img class="tee-print" src="maniac-tshirt.png" alt="ManiacのTシャツ" />
+          </div>
+          <p class="stamp">WEIRD &amp;<br />WONDERFUL</p>
+        </div>
+        <div class="ground" aria-hidden="true"></div>
+      </section>
+
+      <section class="intro">
+        <p class="section-kicker">ABOUT US</p>
+        <h2>目立たない田舎から、<br />目を引く一枚を。</h2>
+        <p>田舎兄弟は、ゆるいのに忘れられない絵柄のTシャツ屋です。<br class="desktop-only" />人と同じじゃつまらない。そんなあなたの日常に、ちょっとした違和感と笑顔を届けます。</p>
+        <div class="three-points">
+          <article><b>01</b><h3>人とかぶらない</h3><p>変だけど、ちゃんと着られる。そんな絵柄をつくります。</p></article>
+          <article><b>02</b><h3>毎日にちょい変を</h3><p>いつもの服に、気の抜けた個性を足してみよう。</p></article>
+        </div>
+      </section>
+
+      <section class="product" id="item">
+        <div class="product-art">
+          <span class="paint paint-a"></span><span class="paint paint-b"></span>
+          <div class="product-tshirt">
+            <img class="tee-print product-print" src="maniac-tshirt.png" alt="ManiacのTシャツ" />
+          </div>
+        </div>
+        <div class="product-info">
+          <p class="section-kicker">PICK UP ITEM</p>
+          <h2>Maniac<br />T-shirt</h2>
+          <p class="price">¥4,000 <small>（税込）</small></p>
+          <p>緑の四足歩行キャラクターと、大胆な「MANIAC」の文字。見るほどにじわじわ来る、田舎兄弟の定番Tシャツです。</p>
+          <a class="button button-light" href="https://market.up-t.jp/69e7711666211" target="_blank" rel="noopener">UP-Tで購入する <span>↗</span></a>
+          <br />
+          <a class="button secondary-button" href="https://market.up-t.jp/creator/6132134287059" target="_blank" rel="noopener">その他のアイテム <span>↗</span></a>
+        </div>
+      </section>
+
+      <section class="closing">
+        <p>今日もどこかで、<br />変なTシャツを着よう。</p>
+        <div class="little-hills" aria-hidden="true"></div>
+      </section>
+    </main>
+    <footer><a class="logo" href="#top"><span>田舎</span>兄弟</a><p>© 2026 INAKA KYODAI</p></footer>
+  </body>
+</html>
